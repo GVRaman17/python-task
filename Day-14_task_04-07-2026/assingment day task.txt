@@ -1,0 +1,44 @@
+1. list:
+ordered collection
+mutable
+allows duplicate elements
+indexed
+can store different data types
+dynamic size
+supports slicing
+example:
+li=['hi',12,2.5,True]
+
+2. tuple:
+ordered collection
+immutable (cannot be modified)
+allows duplicate elements
+indexed
+can store different data types
+faster than list
+uses less memory than list
+supports slicing
+example:
+tu=(1,'hi',True,2.5)
+
+3. set
+unordered collection
+mutable
+does not allow duplicates
+not indexed
+stores only unique elements
+fast membership testing (in)
+cannot access elements by index
+example:
+_set={1,2,3}
+
+4. Dictionary
+stores data as key-value pairs
+mutable
+ordered
+keys must be unique
+values can be duplicated
+access data using keys
+fast lookup by key
+example:
+st={'name':'venkat,1:'a'}
